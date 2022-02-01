@@ -3,9 +3,11 @@ public class Car {
     int odometer;
     int time;
     int fuel;
+	String color;
 
-    public Car(int speed, int fuel) {
-        if(speed<0)
+    public Car(String color, int speed, int fuel) {
+        this.color = color;
+		if(speed<0)
             this.speed = 0;
         else
             this.speed = speed;
