@@ -4,6 +4,7 @@ public class Car {
     int time;
     int fuel;
 	String color;
+	int passengers;
 
     public Car(String color, int speed, int fuel) {
         this.color = color;
